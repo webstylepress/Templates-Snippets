@@ -1,0 +1,58 @@
+{
+	"git.ignoreMissingGitWarning": true,
+	// "editor.formatOnSave": true,
+	"window.zoomLevel": 1,
+	"editor.fontSize": 18,
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.autoIndent": "full",
+	"terminal.integrated.fontSize": 18,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.htmlWhitespaceSensitivity": "strict",
+	"prettier.trailingComma": "all",
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"scss.lint.duplicateProperties": "warning",
+	"jake.autoDetect": "off",
+	// "turboConsoleLog.logMessagePrefix": "OUTPUT",
+	"breadcrumbs.enabled": false,
+	"html.format.indentInnerHtml": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"html.format.enable": false,
+	"html.format.wrapLineLength": 200,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"eslint.lintTask.enable": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"eslint.alwaysShowStatus": true,
+	// "eslint.packageManager": "yarn",
+	"files.associations": {
+		// "*.html": "http"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"workbench.colorTheme": "Ayu Dark",
+	//"quokka.suppressExpirationNotifications": true,
+	// "rest-client.fontSize": 14,
+	"liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": null
+		},
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+			"savePath": null
+		}
+	],
+	"workbench.iconTheme": "material-icon-theme",
+	"tabnine.experimentalAutoImports": true
+}
