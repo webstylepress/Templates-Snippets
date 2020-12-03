@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+html {
+  position: relative; 
+  min-height: 100%;
+  font-size: 62.5%;
+  body {
+    width:100%; 
+    height: 100%; 
+    overflow-x:hidden; 
+    font-size: 1.6rem;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {}
+button, .btn {}
+
+.pg-wrapper {height: 100%;}
+a, a:hover, img, img:hover, button, button:hover, i, i:hover {transition: all 0.3s ease-in-out;}
+a:hover, a:active, a:visited, a:focus {text-decoration:none;}
+img { border:0; }
+.clear, .clear1, .clear2, .clear3, .clear4, .clear5, .clear10, .clear20, .clear30, .clear40, .clear60, .clear80 {clear:both; font-size:0px; line-height:0px;}
+.clear {height:0px;} .clear1 {height:1px;} .clear2 {height:2px;} .clear3 {height:3px;} .clear4 {height:4px;} .clear5 {height:5px;} .clear10 {height:10px;} .clear20 {height:20px;} .clear30 {height:30px;} .clear40 {height:40px;} .clear60 {height:60px;} .clear80 {height:80px;}
+form {display: block; width: 100%;}
+textarea {/*resize:vertical;*/ resize: none;}
+button:focus, .btn:focus, a:focus, input:focus, .form-control:focus {outline: 0;}
+button, .btn {background-image: none; text-shadow: none; box-shadow: none;}
+
+.no-padding-margin {padding:0; margin:0;}
+.no-padding {padding:0;}
+.no-margin {margin:0;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.fixed {position: fixed;}
+.overflow-hidden {overflow: hidden;}
+.overflow-visible {overflow: visible !important;}
+.inline-block {display: inline-block;}
+.full-width {width:100%; display: block; clear: both;}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+[class^=col-] {
+  // margin-bottom: 20px;
+}
